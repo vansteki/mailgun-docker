@@ -14,7 +14,7 @@
 		res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
 		res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE')
 		res.header("Content-Type", "application/json; charset=utf-8")
-    	next();
+    		next();
 	}
 	mailTemplate  = {
 		"from": "Mailgun Sandbox <postmaster@YOURDOMAIN.mailgun.org>",
